@@ -1,9 +1,10 @@
+import "./style.css"
 function EmailField() {
     return (
         <div className="inputs">
             <label>Email address</label>
-            <input type="email" />
-            <button>Subscribe to monthly newsletter</button>
+            <input type="email" placeholder="email@company.com"/>
+            <button className="centered-button">Subscribe to monthly newsletter</button>
         </div>
     );
 }

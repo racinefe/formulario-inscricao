@@ -1,39 +1,24 @@
 #root {
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 .form {
-  width: 800px;
-  height: 600px;
+  width: 60rem;
+  height: 30rem;
   border-radius: 25px;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
 }
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: 3rem;
   text-align: left;
   padding: 10px;
-  width: 400px;
-  height: 300px;
-
-}
-
-.container button {
-  background-color: #3d3c3c;
+  width: 60%;
+  height: 90%;
   
-}
-.inputs {
-  margin-top: 10px;
-  width: 300px;
-}
-.inputs input {
-  background-color: #fff;
-  display: flex;
-  padding:8px;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  cursor: pointer;
-  color: #000;
-  width: 250px;
 }

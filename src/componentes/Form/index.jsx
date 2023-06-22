@@ -1,4 +1,3 @@
-import FrontendMentor from "../Attributions";
 import EmailField from "../Email";
 import FormParagraph from "../Paragraph";
 import FormTitle from "../Titulo";
@@ -10,12 +9,11 @@ function Form() {
   return (
     
       <form action="" className="form">
-       <div className="container">
-        <FormTitle />
-        <FormParagraph />
-        <EmailField />
-        <FrontendMentor />
-       </div>
+        <div className="container">
+          <FormTitle />
+          <FormParagraph />
+          <EmailField />
+        </div>
       </form>
    
   );

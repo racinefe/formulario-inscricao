@@ -1,25 +1,32 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
-
-import "./style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
+import './style.css';
 
 function FormParagraph() {
   return (
-    <div>
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
-      <p>
-        <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#ff4000" }} />{" "}
-        Product discovery and building what matters
-      </p>
-      <p>
-        <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#ff4000" }} />{" "}
-        Measuring to ensure updates are a success
-      </p>
-      <p>
-        <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#ff4000" }} />{" "}
-        And much more!
-      </p>
+    <div className="form-paragraph">
+      <div className="paragraph-container">
+        <div className="icon">
+          <FontAwesomeIcon icon={faCheckCircle} style={{ color: '#ff4000' }} />
+        </div>
+        <p>Product discovery and building what matters</p>
+      </div>
+
+      <div className="paragraph-container">
+        <div className="icon">
+        <FontAwesomeIcon icon={faCheckCircle} style={{ color: '#ff4000' }} />
+        </div>
+        <p>Measuring to ensure updates are a success</p>
+      </div>
+
+      <div className="paragraph-container">
+        <div className="icon">
+        <FontAwesomeIcon icon={faCheckCircle} style={{ color: '#ff4000' }} />
+        </div>
+        <p>And much more!</p>
+      </div>
     </div>
   );
 }
+
 export default FormParagraph;
