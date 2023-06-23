@@ -1,4 +1,10 @@
-h1 {
+.titulo {
+  text-align: center;
   font-family: 'Roboto', sans-serif;
+  width: 350px;
+  height: 50px;
+  font-weight: 900;
+  
   color:  hsl(234, 29%, 20%);
+  
 }

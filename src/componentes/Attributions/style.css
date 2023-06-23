@@ -5,3 +5,6 @@
     margin-top: 20px;
     color: hsl(231, 7%, 60%);
 }
+.attribution a {
+    color: aliceblue;
+}

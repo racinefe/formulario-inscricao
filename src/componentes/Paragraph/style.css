@@ -1,15 +1,17 @@
 .form-paragraph {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight:400;
     display: flex;
     flex-direction: column;
     color: hsl(235, 18%, 26%);
   }
   
   .paragraph-container {
+    position: relative;
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    width: 350px;
+
   }
   
   .icon {
