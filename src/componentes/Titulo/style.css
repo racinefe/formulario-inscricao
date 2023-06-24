@@ -1,9 +1,10 @@
 .titulo {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  width: 350px;
-  height: 50px;
+  margin-left: 2rem;
+  width: 80%;
   font-weight: 900;
+  font-size: 2rem;
   
   color:  hsl(234, 29%, 20%);
   

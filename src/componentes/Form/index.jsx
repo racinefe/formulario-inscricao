@@ -2,6 +2,8 @@ import EmailField from "../Email";
 import FormImage from "../FormImage";
 import FormParagraph from "../Paragraph";
 import FormTitle from "../Titulo";
+
+
 import "./style.css";
 
 
@@ -16,7 +18,7 @@ function Form() {
           <FormParagraph />
           <EmailField />
         </div>
-        <FormImage />
+       <div className="img"> <FormImage /></div>
       </form>
    
   );

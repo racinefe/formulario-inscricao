@@ -1,6 +1,5 @@
-.form-image {
+#formImage {
     position: relative;
     top: 0;
-    width: 100vh;
-    height: 85vh;
+    height: 100%;
 }

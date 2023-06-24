@@ -9,12 +9,31 @@
   background-color: hsl(0, 0%, 100%);
 }
 .container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+}
+
+@media (max-width: 768px) {
+  /* Seus estilos para telas pequenas aqui */
+  .form {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 30rem;
+  }
+  .img img {
+  height: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 3rem;
-  text-align: left;
-  padding: 10px;
-  
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
