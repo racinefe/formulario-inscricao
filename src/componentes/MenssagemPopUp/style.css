@@ -1,0 +1,47 @@
+.success-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: hsl(0, 0%, 100%);
+    border:none;
+    border-radius: 10px;
+
+    width: 20rem;
+    height: 20rem;
+    padding: 30px;
+    text-align: center;
+    text-align: left;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+  .success-message h1 {
+    margin-top: 25px;
+    color: hsl(234, 29%, 20%);
+    font-weight: bold;
+  }
+  .success-message p {
+    font-weight: 100;
+    color: hsl(234, 29%, 20%);
+   }
+  .image {
+    width: 40px;
+    height: 40px;
+  }
+  .close-button {
+    margin-top: 20px;
+    padding:15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 20rem;
+
+    color: hsl(0, 0%, 100%);
+    background: radial-gradient(farthest-corner at right bottom,#E4734F,#CC4165);
+
+    font-weight:600;
+    font-size: 1rem;
+   
+  }

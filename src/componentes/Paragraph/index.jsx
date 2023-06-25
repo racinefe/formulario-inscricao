@@ -5,7 +5,10 @@ import "./style.css";
 function FormParagraph() {
   return (
     <div className="form-paragraph">
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <div className="paragraph-container">
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      </div>
+      
       <div className="paragraph-container">
         <div className="icon">
           <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#ff4000" }} />

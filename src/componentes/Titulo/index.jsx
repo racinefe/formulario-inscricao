@@ -1,6 +1,11 @@
 import "./style.css";
 function FormTitle () {
-  return <h1 className="titulo">Stay updated!</h1>
+  return (
+    <div className="titulo">
+      <h1>Stay updated!</h1>
+    </div>
+  
+  )
 }
 
 export default FormTitle;
