@@ -86,4 +86,4 @@ const validateEmail = (email) => {
 - GitHub - [@racinefell](https://github.com/racinefe)
 - Linkedin - [Racine Fellipe](linkedin.com/in/racinefellipe)
 
-  [##Return to top](#Índice)
+  [##Return to top](#Newsletter)
