@@ -49,7 +49,7 @@ Nesse projeto aprendi a utilizar hook da biblioteca React, que me permite adicio
 
 
 ```js
-exemplo de um componente de contador simples usando o useState:
+//exemplo de um componente de contador simples usando o useState:
 import React, { useState } from 'react';
 function Counter() {
   const [count, setCount] = useState(0);
