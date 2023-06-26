@@ -5,7 +5,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 ## Table of contents
 
 - [Overview](#overview)
-  
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -27,8 +26,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Deployment URL: [Deployment ](https://formulario-inscricao-three.vercel.app)
+- Video Project URL: [Video](https://drive.google.com/file/d/1l8OouVuiT9hSlVYCA_gOCxNp0pmPJC90/view?usp=sharing)
 
 ## My process
 
