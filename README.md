@@ -2,20 +2,19 @@
 
 This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
+## Índice
+- [Visão geral](#visão-geral)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [Meu processo](#Meu-processo)
+  - [Construído com](#Construído-com)
+  - [O que eu aprendi](#O-que-eu-aprendi)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+  - [ Recursos úteis](#Recursos-úteis)
+- [Autor](#Autor)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
+## Visão geral
 
 
 ### Screenshot
@@ -29,9 +28,9 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - Deployment URL: [Deployment ](https://formulario-inscricao-three.vercel.app)
 - Video Project URL: [Video](https://drive.google.com/file/d/1l8OouVuiT9hSlVYCA_gOCxNp0pmPJC90/view?usp=sharing)
 
-## My process
+## Meu processo
 
-### Built with
+### Construído com
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -43,7 +42,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 
 
-### What I learned
+### O que eu aprendi
 
 Nesse projeto aprendi a utilizar hook da biblioteca React, que me permite adicionar estados a componentes funcionais no React.
 
@@ -76,18 +75,13 @@ const validateEmail = (email) => {
 }
 ```
 
-### Useful resources
+### Recursos úteis
 
 - [Conceitos básicos de Grid Layout](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout) - Isso me ajudou na organização dos elementos. 
 - [Separation of Concerns in React –How to Use Container and Presentational Components](https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/) - Este artigo incrível me ajudou a entender Como usar contêineres e componentes. Recomendo a todos que ainda estão aprendendo esse conceito.
 
-## Author
+## Autor
 
 - GitHub - [@racinefell](https://github.com/racinefe)
 - Linkedin - [Racine Fellipe](linkedin.com/in/racinefellipe)
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
