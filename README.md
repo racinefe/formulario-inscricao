@@ -37,30 +37,42 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Node.js](https://nodejs.org/en) - React framework
+- [Vite](https://vitejs.dev) - to Build
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Nesse projeto aprendi a utilizar hook da biblioteca React, que me permite adicionar estados a componentes funcionais no React.
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+```js
+exemplo de um componente de contador simples usando o useState:
+import React, { useState } from 'react';
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Contagem: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Incrementar</button>
+      <button onClick={() => setCount(count - 1)}>Decrementar</button>
+    </div>
+  );
 }
 ```
+Aprendi a criar uma lógica para  validação de e-mail.
+
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+ // Lógica de validação de e-mail (pode ser uma expressão regular ou outra forma de validação)
+// Neste exemplo, é considerado válido se tiver pelo menos um caractere antes e depois do ' @ ' e a extensão '.com ' no final
+const validateEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\./;
+    const hasComExtension = email.endsWith(".com");
+    return regex.test(email) && hasComExtension;
+  };
 }
 ```
 
