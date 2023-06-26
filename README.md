@@ -83,8 +83,7 @@ const validateEmail = (email) => {
 
 ## Author
 
-- Website - [Newsletter sign-up](https://formulario-inscricao-three.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [@racinefell](https://github.com/racinefe)
 - Linkedin - [Racine Fellipe](linkedin.com/in/racinefellipe)
 
 ## Acknowledgments
